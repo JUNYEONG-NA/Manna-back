@@ -12,7 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/cinema")
 public class CinemaController {
-
+//    해윙
     @Autowired
     private CinemaService cinemaService;
     @GetMapping("") // 전체 조회
